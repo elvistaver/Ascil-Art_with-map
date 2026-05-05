@@ -22,6 +22,5 @@ func main() {
 		fmt.Println("invalid")
 	}
 	render := Renderline(Files_maped)
-
 	fmt.Print(render)
 }

@@ -1,0 +1,1 @@
+The project is an Ascil_Art project, its a program that reads the ascil-art files and store in map data type and its been used in the render file to form the ascil-art character and when run a command on the terminal, it print the ascil art font of the inputed text or word

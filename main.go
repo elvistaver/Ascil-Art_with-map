@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
@@ -22,5 +23,6 @@ func main() {
 		fmt.Println("invalid")
 	}
 	render := Renderline(Files_maped)
-	fmt.Print(render)
+	final:= strings.Join(render, "")
+	fmt.Print(final)
 }
